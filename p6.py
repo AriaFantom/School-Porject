@@ -1,0 +1,15 @@
+#Exporting Data From Python to CSV
+import pandas as pd
+df= pd.DataFrame({
+    'Name':["Priya","Shan","Arya"],
+    'Class':["XI","X","XI"],
+    'RollNo':["20","42","10"]
+})
+#Exporting Data From Python to CSV
+df.to_csv('C:\\Users\Priyanshu\Desktop\School Porject\project.csv')
+print("File Created!")
+
+#Importing Data From CSV to Python
+df2 = pd.read_csv('C:\\Users\Priyanshu\Desktop\School Porject\Book1.csv')
+print(df2)
+
