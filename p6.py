@@ -10,6 +10,6 @@ df.to_csv('C:\\Users\Priyanshu\Desktop\School Porject\project.csv')
 print("File Created!")
 
 #Importing Data From CSV to Python
-df2 = pd.read_csv('C:\\Users\Priyanshu\Desktop\School Porject\Book1.csv')
+df2 = pd.read_csv('Book1.csv')
 print(df2)
 
