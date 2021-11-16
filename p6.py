@@ -6,7 +6,7 @@ df= pd.DataFrame({
     'RollNo':["20","42","10"]
 })
 #Exporting Data From Python to CSV
-df.to_csv('C:\\Users\Priyanshu\Desktop\School Porject\project.csv')
+df.to_csv('project.csv')
 print("File Created!")
 
 #Importing Data From CSV to Python
