@@ -1,0 +1,10 @@
+list = [100,200,7,700]
+max = list[0]
+second_max = list[0]
+for i in list:
+        if i > max:
+                second_max = max
+                max = i
+        elif i > second_max:
+                second_max = i
+print(second_max)
